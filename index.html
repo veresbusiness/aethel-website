@@ -72,15 +72,15 @@
     <div class="wrap">
       <div class="photowrap">
         <img src="images/courtyard.jpg" alt="Landscaped concrete courtyard with lighting designed by Aethel Enterprises" width="1100" height="822" loading="lazy">
-        <div class="seal">
-          <svg viewBox="0 0 200 200" width="100%" height="100%">
-            <defs><path id="sealpath" d="M 100,100 m -80,0 a 80,80 0 1,1 160,0 a 80,80 0 1,1 -160,0"/></defs>
-            <text font-family="Inter, sans-serif" font-size="11.5" letter-spacing="2.5" fill="#121313" font-weight="600">
-              <textPath href="#sealpath" startOffset="0%">BUILT FOR THE FUTURE  •  BUILT TO LAST  •  </textPath>
+        <div class="seal" aria-label="Built for the future. Built to last.">
+          <svg class="seal-ring" viewBox="0 0 200 200" width="100%" height="100%" aria-hidden="true">
+            <defs><path id="sealpath" d="M 100,100 m -76,0 a 76,76 0 1,1 152,0 a 76,76 0 1,1 -152,0"/></defs>
+            <text font-family="Inter, sans-serif" font-size="13" fill="#C99A55" font-weight="600">
+              <textPath href="#sealpath" startOffset="0%" textLength="470" lengthAdjust="spacing">BUILT FOR THE FUTURE • BUILT TO LAST •</textPath>
             </text>
           </svg>
+          <div class="seal-core"><img src="images/mark.png" alt="" width="240" height="222"></div>
         </div>
-        <div class="seal-core"><span>A</span></div>
       </div>
       <div class="body">
         <div class="label">About Aethel</div>
